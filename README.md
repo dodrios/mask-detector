@@ -2,42 +2,36 @@
 
 1. Clone the repo
 
-bash
-```
+```bash
 git clone https://github.com/dodrios/mask-detector.git
 ```
 
 2. Change your directory to the cloned repo
 
-bash
-```
+```bash
 cd mask-detector
 ```
 
 3. Create a Python virtual environment named 'env'
 
-bash
-```
+```bash
 python -m venv env
 ```
 
 4. Activate the virtual environment
 
-bash
-```
+```bash
 .\env\Scripts\activate
 ```
 
 5. Install dependencies
 
-bash
-```
+```bash
 pip install -r requirements.txt
 ```
 
 6. Start
 
-bash
-```
+```bash
 python detect_mask_video.py
 ```
